@@ -1,11 +1,11 @@
 /*!
- * Datepicker v0.2.0
+ * Datepicker v0.2.1
  * https://github.com/fengyuanchen/datepicker
  *
  * Copyright (c) 2014-2015 Fengyuan Chen
  * Released under the MIT license
  *
- * Date: 2015-10-18T06:04:17.960Z
+ * Date: 2015-10-26T02:21:30.292Z
  */
 
 (function (factory) {
@@ -170,7 +170,7 @@
   Datepicker.prototype = {
     constructor: Datepicker,
 
-    version: '0.2.0',
+    version: '0.2.1',
 
     init: function () {
       var options = this.options;
@@ -886,7 +886,7 @@
           break;
 
         case 'month':
-          viewMonth = $.inArray($target.text(), this.options.daysMin);
+          viewMonth = $.inArray($target.text(), this.options.monthsShort);
           this.date = new Date(viewYear, viewMonth, min(viewDay, 28));
           this.viewDate = new Date(viewYear, viewMonth, min(viewDay, 28));
 
