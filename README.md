@@ -1,5 +1,5 @@
-# [Datepicker](https://fengyuanchen.github.io/datepicker)
+# Datepicker
 
-A simple jQuery datepicker plugin.
+> A simple jQuery datepicker plugin.
 
-- [Demo](https://fengyuanchen.github.io/datepicker)
+- [Homepage](http://fengyuanchen.github.io/datepicker)
